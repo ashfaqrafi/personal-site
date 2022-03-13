@@ -9,9 +9,6 @@ export default function Home() {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
-  // useEffect(() => {
-  //   import("jquery/dist/jquery.min.js");
-  // }, []);
 
   useEffect(() => {
     typeof document !== undefined
